@@ -13,7 +13,9 @@ public :
 		cout << "Masukkan Nama : ";
 		cin >> nama;
 	}
-	
+	void tampilkandata() {
+		cout << "\nNIM : " << nim << endl;
+		cout << "nama : " << nama << endl;
 	}
 
 };
