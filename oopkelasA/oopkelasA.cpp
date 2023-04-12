@@ -4,7 +4,7 @@ using namespace std;
 class Mahasiswa {
 
 private:
-	int main;
+	int nim;
 	string nama;
 public :
 	void inputdata() {
@@ -28,5 +28,15 @@ private:
 public:
 	void InputMK();
 	void TampilMK();
+}
+
+
+void Matakuliah::InputMK() {
+	cout << "\nMasukkan kode Mata Kuliah : ";
+	cin >> kode;
+	cout << "Masukkan Nama Mata kuliah : ";
+	cin >> namamk;
+	cout << "Masukkan Sks Mata Kuliah : ";
+	cin >> sks;
 
 }
