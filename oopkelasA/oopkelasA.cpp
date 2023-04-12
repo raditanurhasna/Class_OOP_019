@@ -58,5 +58,6 @@ int main()
 
 	mk.inputdata();
 	mk.tampilkandata();
+
 }
 
